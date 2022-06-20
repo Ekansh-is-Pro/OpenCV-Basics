@@ -68,7 +68,9 @@ print(img.shape)
   blue green red
   [0 ,   0 ,  0] this range exists from 0-255'''
 
-print(img[0])
+b = img[0]
+print(b)
+print(type(b))
 ''' Here in this row we are looking at the first row of the pixels in the image which is something like in the format
 of this --->
 [[214 124  35]
@@ -79,8 +81,9 @@ of this --->
  [213 125  35]
  [213 125  35]]
  '''
-
-print(img[250][45:400])
+a = img[250][45:400]
+print(a)
+print(type(a))
 ''' Here in this code we are seeint the 250th row in the image and the pixels between 45 to 400 which will be 
 something like this --> 
 [[212 122  33]
@@ -93,4 +96,5 @@ something like this -->
 
 print(img[250][400])
 ''' Here we are taking look at just one pixel(in case here 400) from the 250th row of the image which looks like 
-this ---> '''
+this ---> [218 131  45]'''
+
